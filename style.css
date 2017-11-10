@@ -1,0 +1,44 @@
+#light-theme #main {
+    background-color: lightgray;
+}
+
+#dark-theme #main {
+    background-color: darkgray;
+}
+
+
+
+#dark-theme .content ul li a {
+    font-family: serif;
+}
+
+#context-menu {
+    display: none;
+    width: 150px;
+    border: 3px solid black;
+    position:absolute;
+    background-color: ghostwhite;
+    transform: translate(-50%, -50%);
+}
+
+#context-menu.active {
+    display: block;
+}
+
+
+.outer {
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+}
+.middle {
+    height: 300px;
+    width: 300px;
+    background-color: dodgerblue;
+}
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+}
+
